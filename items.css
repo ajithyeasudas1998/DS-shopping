@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(110deg, white 66%, #fcc603 34%)
+}
+.bg{
+    height: 150PX;
+}
+.brdr{
+    /* border: 1px solid black; */
+    height: 400px;
+}
+.span{
+    color:red ;
+}
+/* container 1  */
+.container1header{
+    position: relative;
+}
+.topheading{
+    position: absolute;
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+/* container 2 */
+.logoimage{
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.container2items{
+    height: 800px;
+}
+.itemspara{
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.innerbox{
+    height: 400px;
+    width: 300px;
+    box-shadow: 2px 2px 5px 0px black;
+    
+    margin-left: 50px;
+}
+
+
+/* hover */
+.innerbox:hover {
+    box-shadow: 3px 3px 7px 0px green;
+  }
